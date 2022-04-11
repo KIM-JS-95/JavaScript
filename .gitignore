@@ -1,23 +1,23 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
+/frost/node_modules
 /.pnp
-.pnp.js
+/frost/.pnp.js
 
 # testing
-/coverage
+/frost/coverage
 
 # production
-/build
+/frost/build
 
 # misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+/frost/.DS_Store
+/frost/.env.local
+/frost/.env.development.local
+/frost/.env.test.local
+/frost/.env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+/frost/npm-debug.log*
+/frost/yarn-debug.log*
+/frost/yarn-error.log*
